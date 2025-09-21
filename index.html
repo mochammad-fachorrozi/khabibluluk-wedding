@@ -708,7 +708,7 @@
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const nama = urlParams.get('to') || '';
-    const pronoun = urlParams.get('h4') || 'Kepada Bapak/Ibu/Saudara/i, ';
+    const pronoun = urlParams.get('h4') || 'Kepada Bapak/Ibu/Saudara/i ';
     const namaContainer = document.querySelector('.hero h4');
     namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
 
